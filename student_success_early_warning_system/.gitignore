@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+**/__pycache__/
+.pytest_cache/
+**/.pytest_cache/
+*.py[cod]
+.streamlit/
+.vscode/
+.idea/
+.DS_Store
+pip-install*.log
+presentation_build/

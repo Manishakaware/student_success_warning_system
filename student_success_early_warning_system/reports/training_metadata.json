@@ -1,0 +1,88 @@
+{
+  "dataset_rows": 395,
+  "raw_features": 32,
+  "missing_values": 0,
+  "duplicate_rows": 0,
+  "best_model": "Gradient Boosting",
+  "best_metrics": {
+    "MAE": 1.127864740041122,
+    "RMSE": 1.9219508283673494,
+    "R2": 0.8198543539855815
+  },
+  "feature_columns": [
+    "school",
+    "sex",
+    "age",
+    "address",
+    "famsize",
+    "Pstatus",
+    "Medu",
+    "Fedu",
+    "Mjob",
+    "Fjob",
+    "reason",
+    "guardian",
+    "traveltime",
+    "studytime",
+    "failures",
+    "schoolsup",
+    "famsup",
+    "paid",
+    "activities",
+    "nursery",
+    "higher",
+    "internet",
+    "romantic",
+    "famrel",
+    "freetime",
+    "goout",
+    "Dalc",
+    "Walc",
+    "health",
+    "absences",
+    "G1",
+    "G2"
+  ],
+  "top_features": [
+    {
+      "Feature": "G2",
+      "Importance": 0.8787878212472355
+    },
+    {
+      "Feature": "absences",
+      "Importance": 0.0973928313248748
+    },
+    {
+      "Feature": "G1",
+      "Importance": 0.01465717823324302
+    },
+    {
+      "Feature": "failures",
+      "Importance": 0.0013157579358594336
+    },
+    {
+      "Feature": "famrel",
+      "Importance": 0.0012849695949370416
+    },
+    {
+      "Feature": "Walc",
+      "Importance": 0.0011768659533151907
+    },
+    {
+      "Feature": "traveltime",
+      "Importance": 0.0006917820114927278
+    },
+    {
+      "Feature": "freetime",
+      "Importance": 0.0004931744713179265
+    },
+    {
+      "Feature": "studytime",
+      "Importance": 0.00040216362086641766
+    },
+    {
+      "Feature": "romantic_yes",
+      "Importance": 0.0003397219505962172
+    }
+  ]
+}
