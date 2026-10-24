@@ -1,18 +1,11 @@
 # AI-Based Student Performance Prediction System
 
-## Live Demo
-
-- Streamlit app: https://student-performance-prediction-qbjvdcjrgthfs3uzwfgwgi.streamlit.app/
-- GitHub repository: https://github.com/wpdevgenius-cloud/student-performance-prediction
 
 ## Overview
 This Applied AI internship project estimates a student’s final Mathematics grade (`G3`, 0–20) from academic, demographic, social, and behavioural information. It includes a reproducible scikit-learn pipeline, model comparison, explainability charts, tests, a Streamlit application, and presentation materials.
 
 ## Problem Statement
 Student performance is influenced by multiple factors. A transparent prediction prototype can help start an academic-support conversation by combining patterns from historical data. It does not replace educators or make definitive decisions.
-
-## Dataset
-The project downloads the official [UCI Student Performance dataset](https://archive.ics.uci.edu/dataset/320/student+performance) and stores the Mathematics subset at `data/student-mat.csv`. The Mathematics subset contains **395 rows** and 33 columns (the wider Portuguese subset has 649 rows). Target: `G3`, the final grade from 0 to 20.
 
 ## Features
 The main model uses all 32 non-target fields, including student background, family and school support, study habits, absences, and prior grades `G1` and `G2`.
